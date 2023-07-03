@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: large;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
