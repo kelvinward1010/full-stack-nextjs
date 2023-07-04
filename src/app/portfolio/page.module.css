@@ -1,0 +1,18 @@
+.portfolio{
+    width: 100%;
+    height: 100%;
+}
+.portfolio .boxs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio .box{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio .imgCard{
+    width: 200px;
+    height: 120px;
+}
