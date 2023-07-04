@@ -1,3 +1,29 @@
 .contact{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .imgC{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .imgC .img{
+    width: 30%;
+    height: 50%;
+}
+
+.formCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact .formCenter .btnSend{
+    background: teal !important;
+    color: white !important;
+    border: none;
 }

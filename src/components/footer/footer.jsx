@@ -6,7 +6,7 @@ import kokushibo from '../../utils/kokushibo.jpg';
 export default function Footer() {
   return (
     <div className={styles.footer}>
-        <span>Oki here this footer</span>
+        <span>Contact me: kelvinward1010@gmail.com</span>
         <Image width={30} height={15} 
           src={kokushibo}
           alt='Kokushibo'

@@ -1,0 +1,9 @@
+.buttonCustom{
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.buttonCustom:hover{
+    color: white !important;
+}
