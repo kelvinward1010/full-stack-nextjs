@@ -1,0 +1,34 @@
+.box{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.box .boxImg{
+    height: 90%;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.box .boxRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%;
+}
+
+.blog .seeMore{
+    width: 100% !important;
+    text-align: center;
+    color: white;
+    background: teal;
+    border: none;
+    margin-top: 20px;
+}
+
+.blog .seeMore:hover{
+    color: white;
+}

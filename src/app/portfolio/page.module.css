@@ -6,11 +6,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position:sticky;
 }
 .portfolio .box{
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
+    width: 350px;
 }
 .portfolio .imgCard{
     width: 200px;
