@@ -29,6 +29,15 @@
     margin-top: 20px;
 }
 
-.blog .seeMore:hover{
+.blog .hideMore{
+    width: 100% !important;
+    text-align: center;
+    color: white;
+    background: red;
+    border: none;
+    margin-top: 10px;
+}
+
+.blog .seeMore:hover, .blog .hideMore{
     color: white;
 }
