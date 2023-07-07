@@ -1,8 +1,6 @@
 "use client"
 import React from 'react'
 import styles from './page.module.css';
-import ContactImg from '../../utils/contact.jpg';
-import Image from 'next/image';
 import { Button, Form, Input } from 'antd';
 
 const layout = {
@@ -31,9 +29,6 @@ const onFinish = (values) => {
 export default function Page() {
   return (
     <div className={styles.contact}>
-      {/* <div className={styles.imgC}>
-        <Image className={styles.img} src={ContactImg} alt="contact"/>
-      </div> */}
       <div className={styles.formCenter}>
         <Form
           {...layout}
